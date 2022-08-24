@@ -30,6 +30,8 @@
 - Batch
   - [ss64](https://ss64.com/nt/)
   - [dostips](https://www.dostips.com/)
+  - [tenforums](https://www.tenforums.com/)
+  - [elevenforum](https://www.elevenforum.com/)
   - [tutorialspoint](https://www.tutorialspoint.com/batch_script/index.htm)
   - [privacy.sexy](https://privacy.sexy/)
   - [Windows Environment Variables](https://ss64.com/nt/syntax-variables.html)
