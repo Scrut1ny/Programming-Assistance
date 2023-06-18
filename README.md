@@ -1,9 +1,11 @@
 ### Windows 11
 - [CLSID Key (GUID) Shortcuts](https://www.elevenforum.com/t/list-of-windows-11-clsid-key-guid-shortcuts.1075/)
+- [Control Panel Item Shortcuts](https://www.tenforums.com/tutorials/86339-list-commands-open-control-panel-items-windows-10-a.html)
 - [Environment Variables](https://www.elevenforum.com/t/complete-list-of-environment-variables-in-windows-11.11212/)
 
 ### Windows 10
 - [CLSID Key (GUID) Shortcuts](https://www.tenforums.com/tutorials/3123-clsid-key-guid-shortcuts-list-windows-10-a.html)
+- [Control Panel Item Shortcuts](https://www.elevenforum.com/t/create-shortcuts-to-open-control-panel-items-in-windows-11.528/)
 - [Environment Variables](https://www.tenforums.com/tutorials/3234-environment-variables-windows-10-a.html)
 
 ### Software
