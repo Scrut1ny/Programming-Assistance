@@ -5,6 +5,7 @@
 - [Settings Page Shortcuts](https://www.elevenforum.com/t/create-shortcuts-to-open-pages-in-settings-in-windows-11.522/)
 - [Microsoft Store Apps Shortcuts](https://www.elevenforum.com/t/list-of-uri-commands-to-open-microsoft-store-apps-in-windows-11.2683/)
 - [Environment Variables](https://www.elevenforum.com/t/complete-list-of-environment-variables-in-windows-11.11212/)
+- [Winget](https://www.elevenforum.com/t/reinstall-built-in-apps-in-windows-11.12506/)
 
 ### Windows 10
 - [CLSID Key (GUID) Shortcuts](https://www.tenforums.com/tutorials/3123-clsid-key-guid-shortcuts-list-windows-10-a.html)
