@@ -1,5 +1,20 @@
-### Websites
+### Windows 11
+    - [CLSID Key (GUID) Shortcuts](https://www.elevenforum.com/t/list-of-windows-11-clsid-key-guid-shortcuts.1075/)
+    - [Environment Variables](https://www.elevenforum.com/t/complete-list-of-environment-variables-in-windows-11.11212/)
 
+### Windows 10
+    - [CLSID Key (GUID) Shortcuts](https://www.tenforums.com/tutorials/3123-clsid-key-guid-shortcuts-list-windows-10-a.html)
+    - [Environment Variables](https://www.tenforums.com/tutorials/3234-environment-variables-windows-10-a.html)
+
+### Software
+    - [Reg Converter](https://www.sordum.org/8478/reg-converter-v1-2/)
+        - [Direct Download](https://www.sordum.org/files/downloads.php?reg-converter)
+    - [RegFromApp](https://www.nirsoft.net/utils/reg_file_from_application.html)
+        - [Direct Download](https://www.nirsoft.net/utils/regfromapp.zip)
+        - [Direct Download - x64](https://www.nirsoft.net/utils/regfromapp-x64.zip)
+
+
+### Websites
 - Overall
   - [w3schools](https://www.w3schools.com/)
   - [stackoverflow](https://stackoverflow.com/)
