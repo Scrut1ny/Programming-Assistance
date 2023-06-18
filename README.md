@@ -53,7 +53,6 @@
   - [privacy.sexy](https://privacy.sexy/)
   - [Windows Environment Variables](https://ss64.com/nt/syntax-variables.html)
   - [asciitable](https://www.asciitable.com/)
-  - [Control Panel Item Commands](https://www.tenforums.com/tutorials/86339-list-commands-open-control-panel-items-windows-10-a.html)
 
 ### Software
 - [nirsoft](https://www.nirsoft.net/programmer_tools.html)
