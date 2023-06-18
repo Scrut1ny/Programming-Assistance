@@ -7,11 +7,11 @@
 - [Environment Variables](https://www.tenforums.com/tutorials/3234-environment-variables-windows-10-a.html)
 
 ### Software
-    - [Reg Converter](https://www.sordum.org/8478/reg-converter-v1-2/)
-        - [Direct Download](https://www.sordum.org/files/downloads.php?reg-converter)
-    - [RegFromApp](https://www.nirsoft.net/utils/reg_file_from_application.html)
-        - [Direct Download](https://www.nirsoft.net/utils/regfromapp.zip)
-        - [Direct Download - x64](https://www.nirsoft.net/utils/regfromapp-x64.zip)
+- [Reg Converter](https://www.sordum.org/8478/reg-converter-v1-2/)
+  - [Direct Download](https://www.sordum.org/files/downloads.php?reg-converter)
+- [RegFromApp](https://www.nirsoft.net/utils/reg_file_from_application.html)
+  - [Direct Download](https://www.nirsoft.net/utils/regfromapp.zip)
+  - [Direct Download - x64](https://www.nirsoft.net/utils/regfromapp-x64.zip)
 
 
 ### Websites
