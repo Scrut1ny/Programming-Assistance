@@ -10,6 +10,8 @@
 ### Windows 10
 - [CLSID Key (GUID) Shortcuts](https://www.tenforums.com/tutorials/3123-clsid-key-guid-shortcuts-list-windows-10-a.html)
 - [Control Panel Item Shortcuts](https://www.tenforums.com/tutorials/86339-list-commands-open-control-panel-items-windows-10-a.html)
+- [Shell Folder Shortcuts](https://www.tenforums.com/tutorials/3109-shell-commands-list-windows-10-a.html)
+- [Rundll32 Shortcuts](https://www.tenforums.com/tutorials/77458-rundll32-commands-list-windows-10-a.html)
 - [Environment Variables](https://www.tenforums.com/tutorials/3234-environment-variables-windows-10-a.html)
 
 ### Software
