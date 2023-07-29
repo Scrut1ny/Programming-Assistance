@@ -1,0 +1,71 @@
+===================================
+
+Value: *
+Type: REG_DWORD
+
+Data:
+0x00000000 = No
+0x00000001 = Yes
+
+Value: Start
+Type: REG_DWORD
+
+Data:
+0x00000000 = Boot
+0x00000001 = System
+0x00000002 = Automatic
+0x00000003 = Manual
+0x00000004 = Disabled
+
+===================================
+
+MSIEXEC Parameters
+
+https://www.exemsi.com/documentation/msiexec-parameters/
+
+===================================
+
+Windows 10 default environment variables
+
+https://pureinfotech.com/list-environment-variables-windows-10/
+
+===================================
+
+&     separates commands on a line.
+&&    executes this command only if previous command's errorlevel is 0.
+||    (not used above) executes this command only if previous command's errorlevel is NOT 0
+>     output to a file
+>>    append output to a file
+<     input from a file
+|     output of one command into the input of another command
+^     escapes any of the above, including itself, if needed to be passed to a program
+"     parameters with spaces must be enclosed in quotes
++     used with copy to concatenate files. E.G. copy file1+file2 newfile
+,     used with copy to indicate missing parameters. This updates the files modified date. E.G. copy /b file1,,
+
+%variablename% a inbuilt or user set environmental variable
+!variablename! a user set environmental variable expanded at execution time, turned with SetLocal EnableDelayedExpansion command
+%<number> (%1) the nth command line parameter passed to a batch file. %0 is the batchfile's name.
+%* (%*) the entire command line.
+%<a letter> or %%<a letter> (%A or %%A) the variable in a for loop. Single % sign at command prompt and double % sign in a batch file.
+
+===================================
+
+Batch script in Unix(LF) instead of Windows (CR LF):
+
+Notepad++ > Edit > EOL Conversion > Windows (CR LF)
+
+===================================
+
+SID (Security Identifiers)
+
+S-1-5-21-186985262-1144665072-74031268-1309
+
+S - Identifies the number as a SID
+1 - Version number
+5 - Designates the SECURITY_NT_AUTHORITY SID authority.
+21 - SID authority
+186985262-1144665072-74031268 - The domain identifier
+1309 - The object’s relative identifier
+
+===================================

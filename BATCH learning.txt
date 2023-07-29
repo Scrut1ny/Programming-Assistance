@@ -1,0 +1,192 @@
+Any given for /f loop running a command looks like for /f %%A in ('command') do (
+Any time you put a ) in the 'command' bit, you need to use ^) instead because otherwise the interpreter thinks you're done with the loop.
+
+====================
+
+:: Network Connectivity Status Indicator (NCSI)
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet" /v "EnableActiveProbing" /t REG_DWORD /d "1" /f
+
+====================
+
+setlocal EnableDelayedExpansion
+replaces % with !
+Example: %test% would actually be !test!
+
+====================
+
+|| = or
+|  = and
+
+====================
+
+Generating random letters
+
+set randletter=call set /a r=%%random%% %%%% 26 ^& setlocal enabledelayedexpansion ^& set "alphabet=abcdefghijklmnopqrstuvwxyz" ^& call echo %%alphabet:~!r!,1%%^& endlocal
+%randletter%
+
+====================
+
+wmic nicconfig where IPEnabled=True get Caption,Index,settingid,MACAddress,IPAddress /format:csv
+
+====================
+
+Generating Random GUID/UUID + Brackets
+
+powershell '{'+[guid]::NewGuid().ToString()+'}'
+
+for /f "usebackq" %%a in (`powershell '{'+[guid]::NewGuid(^).ToString(^)+'}'`) do set RGUID=%%a
+
+====================
+
+Generating MAC Address's
+
+[BitConverter]::ToString([BitConverter]::GetBytes((Get-Random -Maximum 0xFFFFFFFFFFFF)), 0, 6).Replace('-', ':')
+
+('{0:x}' -f (Get-Random 0xFFFFFFFFFFFF)).padleft(12,"0")
+
+for /f "usebackq" %%a in (`powershell [BitConverter]::ToString([BitConverter]::GetBytes((Get-Random -Maximum 0xFFFFFFFFFFFF^)^)^, 0^, 6^).Replace(^':^'^, ^'-^'^)`) do set RMAC=%%a
+
+:: Generate Random MACAddress
+:Random_MAC
+for /f "usebackq" %%a in (`powershell ('{0:x}' -f (Get-Random 0xFFFFFFFFFFFF^)^).padleft(12^,^"0^"^)`) do (
+	set "RMAC=%%a"
+	exit /b
+)
+
+====================
+
+Retrieving Caption/Index # of the NIC
+
+echo !SUB1!
+echo %SUB1%
+
+:sub_folder
+for /f "tokens=2 delims=[]" %%a in ('wmic nic where NetConnectionID^=^'!NetworkAdapter!^' get caption /value') do set SUB=%%a & set SUB1=!SUB:~4!
+exit /b
+
+====================
+
+:: Retrieving current MACAddress, Interface Name, NetCfgInstanceId
+:NIC_Info
+for /f "skip=2 tokens=2,3,4* delims=," %%a in ('wmic nic where (NETEnabled=True) get GUID,NetconnectionID,MACAddress /format:csv') do set GUID=%%a & set MAC=%%b & set NIC=%%c)
+exit /b
+
+====================
+
+runas /user:domainname\%USERNAME% "%LOCALAPPDATA%\Google\Chrome\Application\chrome.exe youtube.com"
+
+====================
+
+-join ((48..57) + (97..122) | Get-Random -Count 10 | % {[char]$_})
+
+====================
+
+:: Sets a empty space in a /p function.
+
+set /p "choice=. >"
+
+====================
+
+:: UAC Prompt
+
+fltmc >nul 2>&1 || (
+    echo Administrator privileges are required.
+    PowerShell Start -Verb RunAs '%0' 2> nul || (
+        echo Right-click on the script and select "Run as administrator".
+        pause & exit 1
+    )
+    exit 0
+)
+
+>nul 2>&1 net sess||(powershell saps '%0'-Verb RunAs&exit /b)
+
+:: No red text will appear upon the user declining the UAC dialogue.
+net sess>NUL 2>&1||(powershell try{saps '%0'-Verb RunAs}catch{}&exit)
+
+:: About 4 times faster than the PowerShell method. Though very briefly makes use of a temporary file.
+net sess>NUL 2>&1||(echo.CreateObject^("Shell.Application"^).ShellExecute"%~0",,,"RunAs",1 >"%TEMP%\%~nx0.vbs"&WScript "%TEMP%\%~nx0.vbs"&del "%TEMP%\%~nx0.vbs"&exit)
+
+====================
+
+EQU
+
+EQU is an 'Equal To' comparison operator for the IF command
+
+Examples
+
+C:\> If "blah blah" EQU "blah blah" ECHO The items match
+The items match
+
+C:\> If 123 EQU 123 Echo The numbers Match
+The numbers Match
+
+====================
+
+NEQ
+
+NEQ is a 'Not Equal to' comparison operator for the IF command
+
+Example
+
+C:\> If "blah blah" NEQ "blah blah" ECHO items did not match
+
+C:\> If 123 NEQ 456 ECHO The numbers did not match
+
+====================
+
+LSS
+
+LSS is a 'Less Than' comparison operator for the IF command
+
+Example
+
+C:\> If "abc" LSS "def" ECHO In Alphabetic order
+In Alphabetic order
+
+C:\> If 5 LSS 100 ECHO Smaller number found
+Smaller number found
+
+=====================
+
+LEQ
+
+LEQ is a 'Less Than or Equal To' comparison operator for the IF command
+
+Examples
+
+C:\> If 25 LEQ 50 ECHO smaller
+smaller
+
+C:\> If "250" LEQ "50" ECHO smaller
+smaller
+
+======================
+
+GTR
+
+GTR is a 'Greater Than' comparison operator for the IF command
+
+Examples
+
+C:\> IF 100 GTR 50 ECHO its more than 50!
+its more than 50!
+
+C:\> If 130 GTR 14 Echo OK
+OK
+
+C:\> If "130" GTR "14" Echo OK
+
+======================
+
+GEQ
+
+GEQ is a 'Greater Than or Equal To' comparison operator for the IF command.
+
+Example
+
+C:\> If 25 GEQ 50 ECHO smaller
+
+C:\> If "5" GEQ "444" ECHO smaller
+smaller
+
+=======================
