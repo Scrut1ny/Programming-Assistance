@@ -57,6 +57,9 @@
 
 - [bat2exe](https://www.bat2exe.net/)
 
+### Common Ports
+![Common Ports](https://github.com/Scrut1ny/Programming-Helps/assets/53458032/3b71aabe-0148-4143-885f-4252bbbc9c30)
+
 ### Hacking, Bypass, Spoofing, etc
 - [unknowncheats](https://www.unknowncheats.me/)
 - [All methods of retrieving unique identifiers(HWIDs) on your PC](https://www.unknowncheats.me/forum/anti-cheat-bypass/333662-methods-retrieving-unique-identifiers-hwids-pc.html)
