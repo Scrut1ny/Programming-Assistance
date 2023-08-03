@@ -58,6 +58,7 @@
 - [bat2exe](https://www.bat2exe.net/)
 
 ### Hacking, Bypass, Spoofing, etc
+- [Evasion techniques](https://evasions.checkpoint.com/)
 - [unknowncheats](https://www.unknowncheats.me/)
 - [All methods of retrieving unique identifiers(HWIDs) on your PC](https://www.unknowncheats.me/forum/anti-cheat-bypass/333662-methods-retrieving-unique-identifiers-hwids-pc.html)
 - [NEW MB SPOOF + Valorant Ban Bypass](https://www.unknowncheats.me/forum/valorant/478488-mb-spoof-valorant-ban-bypass.html)
