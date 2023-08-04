@@ -63,4 +63,7 @@
 - [All methods of retrieving unique identifiers(HWIDs) on your PC](https://www.unknowncheats.me/forum/anti-cheat-bypass/333662-methods-retrieving-unique-identifiers-hwids-pc.html)
 - [NEW MB SPOOF + Valorant Ban Bypass](https://www.unknowncheats.me/forum/valorant/478488-mb-spoof-valorant-ban-bypass.html)
 
+
+![gpDPE](https://github.com/Scrut1ny/Programming-Helps/assets/53458032/5df5645a-9bec-41eb-845f-f1a064b3cb36)
+
 ![Common Ports](https://github.com/Scrut1ny/Programming-Helps/assets/53458032/3b71aabe-0148-4143-885f-4252bbbc9c30)
