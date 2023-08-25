@@ -41,9 +41,9 @@
 - API
   - IP API
     - [ip-api](https://ip-api.com/)
-    - [vpnapi](https://vpnapi.io/)
     - [ipify](https://www.ipify.org/)
     - [ipapi](https://ipapi.co/)
+    - [vpnapi](https://vpnapi.io/)
     - [ipapi](https://ipapi.com/)
 
 - Batch
