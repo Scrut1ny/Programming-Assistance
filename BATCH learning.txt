@@ -42,6 +42,8 @@ Generating MAC Address's
 
 [BitConverter]::ToString([BitConverter]::GetBytes((Get-Random -Maximum 0xFFFFFFFFFFFF)), 0, 6).Replace('-', ':')
 
+(0..5 | ForEach-Object { '{0:x}{1:x}' -f (Get-Random -Minimum 0 -Maximum 15),(Get-Random -Minimum 0 -Maximum 15)})  -join ':'
+
 ('{0:x}' -f (Get-Random 0xFFFFFFFFFFFF)).padleft(12,"0")
 
 for /f "usebackq" %%a in (`powershell [BitConverter]::ToString([BitConverter]::GetBytes((Get-Random -Maximum 0xFFFFFFFFFFFF^)^)^, 0^, 6^).Replace(^':^'^, ^'-^'^)`) do set RMAC=%%a
