@@ -49,6 +49,7 @@
 - Batch
   - [ss64](https://ss64.com/nt/)
   - [dostips](https://www.dostips.com/)
+    - [String Manipulation](https://www.dostips.com/DtTipsStringManipulation.php)
   - [tenforums](https://www.tenforums.com/)
   - [elevenforum](https://www.elevenforum.com/)
   - [tutorialspoint](https://www.tutorialspoint.com/batch_script/index.htm)
