@@ -48,6 +48,7 @@
 
 - Batch
   - [ss64](https://ss64.com/nt/)
+    - [ASCII Table](https://ss64.com/ascii.html)
   - [dostips](https://www.dostips.com/)
     - [String Manipulation](https://www.dostips.com/DtTipsStringManipulation.php)
   - [tenforums](https://www.tenforums.com/)
