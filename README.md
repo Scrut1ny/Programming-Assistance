@@ -15,6 +15,8 @@
 - [Environment Variables](https://www.tenforums.com/tutorials/3234-environment-variables-windows-10-a.html)
 
 ### Software
+- [BatCodeCheck](https://www.robvanderwoude.com/battech_batcodecheck.php)
+  - [Direct Download](https://www.robvanderwoude.com/files/batcodecheck.zip)
 - [sordum](https://www.sordum.org/)
   - [Reg Converter](https://www.sordum.org/8478/reg-converter-v1-2/)
     - [Direct Download](https://www.sordum.org/files/downloads.php?reg-converter)
