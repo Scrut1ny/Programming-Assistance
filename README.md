@@ -15,6 +15,8 @@
 - [Environment Variables](https://www.tenforums.com/tutorials/3234-environment-variables-windows-10-a.html)
 
 ### Software
+- [MinGW - Minimalist GNU for Windows](https://sourceforge.net/projects/mingw/)
+  - [Direct Download](https://zenlayer.dl.sourceforge.net/project/mingw/Installer/mingw-get-setup.exe)
 - [BatCodeCheck](https://www.robvanderwoude.com/battech_batcodecheck.php)
   - [Direct Download](https://www.robvanderwoude.com/files/batcodecheck.zip)
 - [sordum](https://www.sordum.org/)
