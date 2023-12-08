@@ -1,4 +1,11 @@
 ===================================
+https://ss64.com/nt/chcp.html
+
+chcp 65001>nul - UTF-8 *
+chcp 65000>nul - UTF-7 *
+chcp 437>nul - United States
+
+===================================
 https://www.ascii-code.com/characters/control-characters
 
 Insert ASCII control character 27 (Esc):
@@ -35,12 +42,6 @@ https://www.exemsi.com/documentation/msiexec-parameters/
 
 ===================================
 
-Windows 10 default environment variables
-
-https://pureinfotech.com/list-environment-variables-windows-10/
-
-===================================
-
 &     separates commands on a line.
 &&    executes this command only if previous command's errorlevel is 0.
 ||    (not used above) executes this command only if previous command's errorlevel is NOT 0
@@ -61,7 +62,7 @@ https://pureinfotech.com/list-environment-variables-windows-10/
 
 ===================================
 
-Batch script in Unix(LF) instead of Windows (CR LF):
+Batch script fucking up? might be in Unix(LF) instead of Windows (CR LF):
 
 Notepad++ > Edit > EOL Conversion > Windows (CR LF)
 
