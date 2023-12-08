@@ -1,4 +1,14 @@
 ===================================
+https://www.ascii-code.com/characters/control-characters
+
+Insert ASCII control character 27 (Esc):
+Alt+027 (press & hold Alt while entering 027)
+Ctrl+[ (press Ctrl and [ simultaneously)
+
+Insert ASCII control character 08 (BS):
+Alt+08 (press & hold Alt while entering 08)
+
+===================================
 
 Value: *
 Type: REG_DWORD
