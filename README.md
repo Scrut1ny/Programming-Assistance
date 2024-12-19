@@ -1,3 +1,7 @@
+### Free AI
+- [DuckDuckGo AI Chat](https://duck.ai)
+- [ChatGPT](https://chatgpt.com/)
+
 ### Windows 11
 - [CLSID Key (GUID) Shortcuts](https://www.elevenforum.com/t/list-of-windows-11-clsid-key-guid-shortcuts.1075/)
 - [Control Panel Item Shortcuts](https://www.elevenforum.com/t/create-shortcuts-to-open-control-panel-items-in-windows-11.528/)
