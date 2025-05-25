@@ -1,11 +1,11 @@
----
 
 ## Low Level Programming/Engineering Utilities
 
-## Windows Utilities
+### Windows Utilities
 - **Shortcuts**
-  - [RWEverything](https://rweverything.com/download/)
   - [HWiNFO](https://www.hwinfo.com/download/)
+  - [RWEverything](https://rweverything.com/download/)
+  - [FirmwareTablesView](https://www.nirsoft.net/utils/firmware_tables_view.html)
 
 ---
 
