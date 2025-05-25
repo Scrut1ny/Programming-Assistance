@@ -64,10 +64,3 @@
   - [Privacy.sexy Automation](https://privacy.sexy/)  
 
 ---
-
-## Appendix
-### Common Ports & Network Reference
-![Common Ports](https://github.com/Scrut1ny/Programming-Helps/assets/53458032/3b71aabe-0148-4143-885f-4252bbbc9c30)
-
-### GPDPE Reference
-![gpDPE](https://github.com/Scrut1ny/Programming-Helps/assets/53458032/5df5645a-9bec-41eb-845f-f1a064b3cb36)
