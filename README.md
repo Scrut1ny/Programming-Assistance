@@ -1,7 +1,9 @@
 ---
 
 ## Low Level Programming/Engineering Utilities
-- **Software Utilities**
+
+## Windows Utilities
+- **Shortcuts**
   - [RWEverything](https://rweverything.com/download/)
   - [HWiNFO](https://www.hwinfo.com/download/)
 
