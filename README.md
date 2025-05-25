@@ -1,34 +1,16 @@
-# Programming & Windows Utilities Hub
-
-A curated list of free AI tools, Windows utilities, software resources, developer websites, and technical references.
-
 ---
 
-## Table of Contents
-- [Free AI Tools](#free-ai-tools)
-- [Windows Utilities](#windows-utilities)
-  - [Windows 11](#windows-11)
-  - [Windows 10](#windows-10)
-- [Software & Tools](#software--tools)
-- [Websites & Resources](#websites--resources)
-  - [General Development](#general-development)
-  - [APIs](#apis)
-  - [Batch Scripting](#batch-scripting)
-- [Technical References](#technical-references)
-- [Appendix](#appendix)
-
----
-
-## Free AI Tools
-- **DuckDuckGo AI Chat**: [Visit](https://duck.ai)
-- **ChatGPT**: [Visit](https://chatgpt.com/)
+## Low Level Programming/Engineering Utilities
+- **Software Utilities**
+  - [RWEverything](https://rweverything.com/download/)
+  - [HWiNFO](https://www.hwinfo.com/download/)
 
 ---
 
 ## Windows Utilities
 
 ### Windows 11
-- **Shortcuts**  
+- **Shortcuts**
   - [CLSID Key (GUID) Shortcuts](https://www.elevenforum.com/t/list-of-windows-11-clsid-key-guid-shortcuts.1075/)  
   - [Control Panel Item Shortcuts](https://www.elevenforum.com/t/create-shortcuts-to-open-control-panel-items-in-windows-11.528/)  
   - [Shell Folder Shortcuts](https://www.elevenforum.com/t/list-of-windows-11-shell-commands-for-shell-folder-shortcuts.1080/)  
@@ -39,7 +21,7 @@ A curated list of free AI tools, Windows utilities, software resources, develope
   - [Winget Guide](https://www.elevenforum.com/t/reinstall-built-in-apps-in-windows-11.12506/)  
 
 ### Windows 10
-- **Shortcuts**  
+- **Shortcuts**
   - [CLSID Key (GUID) Shortcuts](https://www.tenforums.com/tutorials/3123-clsid-key-guid-shortcuts-list-windows-10-a.html)  
   - [Control Panel Item Shortcuts](https://www.tenforums.com/tutorials/86339-list-commands-open-control-panel-items-windows-10-a.html)  
   - [Shell Folder Shortcuts](https://www.tenforums.com/tutorials/3109-shell-commands-list-windows-10-a.html)  
@@ -72,11 +54,6 @@ A curated list of free AI tools, Windows utilities, software resources, develope
   - [Code Beautify](https://codebeautify.org/)  
   - [ASCII Art Generator](https://patorjk.com/software/taag/)  
   - [Icon Converter](https://www.icoconverter.com/)  
-
-### APIs
-- **IP Address APIs**:  
-  - [ip-api](https://ip-api.com/) | [ipify](https://www.ipify.org/)  
-  - [ipapi](https://ipapi.co/) | [vpnapi](https://vpnapi.io/)  
 
 ### Batch Scripting
 - **Guides**:  
